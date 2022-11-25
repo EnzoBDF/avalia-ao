@@ -1,0 +1,272 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+/* *, *::after, *::before {
+    padding: 0;
+    margin: 0;
+} */
+
+
+
+body{
+    background-image: linear-gradient(to top , #191414,#191414,#191414,#191414, #191414,#191414 ,#1db954, #1db954 );
+    font-family:'Circular Std';
+    color: whitesmoke;
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+
+h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.menu1{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 11.5%;
+    /* max-width: 10%; */
+    height: 100%;
+    min-height: 100vh;
+    font-size: 14.5px;
+    padding: 20px 5% 20px 20px;
+    background-color: #0f0d0d;
+    padding-left: 1px;
+
+}
+
+.menu1 img{
+    width: 140px;
+    height: 42px;
+    align-items: left;
+    display: flex;
+    justify-content: left;
+    margin-left: 35px;
+    margin-right: 10px;
+}
+
+
+ul li{
+    list-style: none;
+    text-align: left;
+}
+
+.item:hover{
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 100%;
+}
+
+hr{
+    border: 0.5px solid whitesmoke;
+}
+
+.corpo{
+    width: 83.4%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    margin-top: 60px;
+    /* position: absolute; */
+    /* position: fixed; */
+    /* position: relative; */
+    /* position: static; */
+    /*position: sticky;*/
+    /* position: inherit; */
+    /* position: initial; */
+    /* position: unset; */
+}
+
+.header-content {
+    position: fixed;
+    width: 83.55%;
+    right: 0;
+    box-sizing: border-box;
+    padding: 25px;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(26, 27, 26, 0.9);
+}
+
+.header-content:hover{
+    transition: 1s ease;
+    background-color: rgba(26, 27, 26, 1);
+}
+
+.album-holder{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 0;
+    margin-bottom: 20px;
+}
+
+.album:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #4b4242;
+}
+
+.album{
+    display: flex;
+    background-color: #312b2b;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.album p{
+    margin-left: 5px;
+}
+
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+}
+
+.album img{
+    opacity: 100%;
+    width: 85px;
+    height: 85px;
+    margin-right: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 10px 0px 10px 10px 10px #3b3737;
+}
+
+
+h3{
+    font-size: 22px;
+    margin-top: 5%;
+}
+
+.track-mom{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1%;
+    padding-bottom: 2%;
+}
+
+.container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;    
+}
+
+
+.container{
+    text-align: left;
+    display: grid;
+    padding: 14px;
+    background-color: #1f1b1b;
+    border-radius: 7px;
+}
+
+.container:hover{
+    transition: 0.5s;
+    background-color: #302b2b;
+    cursor: pointer;
+}
+
+.desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #857f7f;
+    font-weight: bold;
+}
+
+#login{
+    border-radius: 25px;
+    padding: 15px 25px;
+    margin-right: 10px;
+    font-family:'Circular Std';
+    color: #0f0d0d;
+    background-color: whitesmoke;
+    font-size: 15px;
+    border-style: none;
+}
+
+#login:hover{
+    font-size: 16px;
+}
+
+
+#sub{
+    font-size: 17px;
+    background-color: transparent;
+    border-style: none;
+    font-family: 'Circular Std';
+    margin-right: 20px;
+    color: #817f7f;
+    font-weight: bold;
+}
+
+#sub:hover{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+
+.header-content .icons i{
+    margin-left: 20px;
+}
+
+
+.footer{
+ 
+    position: fixed;
+    width: 100%;
+    background-color: #191414;
+    display: grid;
+    flex-direction: row ;
+    padding: 10px;
+    margin-top: 41.2%;
+    padding-bottom: 1px;
+    
+
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+
+}
+
+.music{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.music p{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    vertical-align: baseline;
+    width: 300%;
+}
+
+.footer .music img{
+    display: flex;
+    flex-direction: row;
+    width: 55px;
+    height: 55px;
+    
+}
+

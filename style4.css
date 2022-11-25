@@ -1,0 +1,62 @@
+.menu{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: darkseagreen;
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+
+.cadastro-mensagem{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-family: monospace;
+}
+
+.inputs-holder{
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+}
+
+.input{
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.input input{
+    background: transparent;
+    padding: 4px;
+    border-radius: 4px;
+    outline: none;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 10px;
+}
+
+
+
+.buttons-holder{
+    margin: auto;
+    display: flex;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    cursor: pointer;
+}

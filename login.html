@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-login</title>
+    <link rel="stylesheet" type="text/css" href="style2.css" media="screen" />
+
+</head>
+<body>
+    <div class = "ajuda">
+        <button onclick="login()">Ajuda</button>
+    </div>
+    <div class = "logo">
+        <img src="data:image/jpeg;base64,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">
+    </div>
+    <div class = "menu">
+        <div class = "conta">
+             Acesse a sua conta
+        </div>
+        <div id="divLogin" class="login">
+            <div class = "preencher">
+                <input type="text" name="loginUsername" id="inputLoginUsername">
+                <span></span>
+                <label for="loginUsername">Nome de usuario ou e-mail</label>
+            </div>
+            <div class = "preencher">
+                <input type="password" name="loginPassword" id="inputLoginPassword">
+                <span></span>
+                <label for="loginPassword">Senha</label>
+            </div>
+
+            <div class = "acessar">
+               <a href="index.html" target="_blank"><button onclick="login()">Acessar</button></a> 
+            </div>
+            
+            <br>
+            <hr>
+            <div class="segundapag">
+                <button onclick="login()">Criar conta</button>
+            </div>
+
+            <div class = "esqueceu">
+                <a href="url">Esqueci a minha senha</a>
+            </div>
+
+            
+        </div>
+    </div>
+
+       
+
+
+</body>
+</html>
